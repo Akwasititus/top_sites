@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-
-import 'details.dart';
 import 'home.dart';
 
 
 void main() {
+      WidgetsFlutterBinding.ensureInitialized();
+   
+
   runApp(
      const MyApp());
 }

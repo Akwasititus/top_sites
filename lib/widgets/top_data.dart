@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:get/get.dart';
 
 import '../APIs/URLs_Saves.dart';
+import '../causeDetails.dart';
 import '../details.dart';
 
 class TopData extends StatelessWidget {
@@ -46,7 +47,7 @@ class TopData extends StatelessWidget {
                               padding: const EdgeInsets.all(7.0),
                               child: GestureDetector(
                                 onTap: () {
-                                  Get.to(const DetailsPage(), arguments: {
+                                  Get.to( CourseScreen(), arguments: {
                                     'siteImgURL': site['site_logo'],
                                     'siteName': site['site_name']
                                         .toString()
