@@ -70,7 +70,7 @@ class FatchOtherData extends StatelessWidget {
                             style: AppBlackTextStyle.texth2,
                           ),
                           Text(
-                            site['site_Desc'],
+                            site['site_minDesc'],
                             textAlign: TextAlign.center,
                             style: AppBlackTextStyle.textpBlack,
                           ),

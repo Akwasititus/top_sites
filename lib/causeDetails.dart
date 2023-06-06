@@ -10,7 +10,7 @@ class CourseScreen extends StatelessWidget {
 
     Future<void> launchURL() async {
       if (!await launchUrl(_url)) {
-        throw Exception('Could not launch $_url');
+        throw Exception('Could not launch');
       }
     }
 
